@@ -1,0 +1,128 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+ul, ol{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+.container{
+  width: 100%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 50px;
+  padding-right: 50px;
+} 
+.btn{
+  background-color: #DE2E54;
+  color: #FFFFFF;
+  padding: 12px 24px;
+  border-radius: 8px;
+  border: none;
+}
+.header{
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+.header-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.sitenav_list{
+  display: flex;
+}
+.site_item:not(:last-child){
+  margin-right: 32px;
+}
+.hero_cotainer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+} 
+.hero_content{
+  width: 500px;
+  color: #fff;
+}
+.hero_title{
+  margin-bottom:16px ;
+}
+.hero_text{
+  margin-bottom: 36px;
+}
+.hero{
+  padding-top: 29px;
+  background-color:#0eb4c1;
+}
+.servis{
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.servis_title{
+  margin-bottom: 56px;
+  text-align: center;
+}
+.servis_item{
+  display: flex;
+  align-items: center;
+}
+.servis_item:not(:last-child){
+  margin-bottom: 80px;
+}
+.servis_item:last-child{
+  margin-bottom: 60px;
+}
+.servis_container{
+  width: 864px;
+}
+.servis_img{
+  margin-right: 64px;
+}
+.servis_content_title{
+  margin-bottom: 24px;
+}
+.contact{
+  background-color: #0eb4c1;
+  padding-top: 64px;
+  padding-bottom: 64px;
+  text-align: center;
+  color: #fff;
+}
+.contact_title{
+  padding-bottom: 40px;
+}
+.btn2{
+  margin-left: 350px;
+  background-color: #DE2E54;
+  color: #FFFFFF;
+  padding: 12px 24px;
+  border-radius: 8px;
+  border: none;
+}
+.btn1{
+  color: #fff;
+  padding: 12px 24px;
+  border-radius: 8px;
+  border: 2px solid #ddd;
+  background-color: #0eb4c1;
+}
+.btn1:not(:last-child){
+  margin-right: 40px;
+}
+.footer{
+  padding-top: 24px;
+  padding-bottom: 24px;
+  background-color: #222;
+}
+.footer_container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer a{
+  color: #fff;
+}
